@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdb52960-8afe-4a77-addc-29b164879349" name="Changes" comment="Add README and project files">
-      <change afterPath="$PROJECT_DIR$/.idea/TechniumA&amp;DS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fdb52960-8afe-4a77-addc-29b164879349" name="Changes" comment="1) Изучил Главу 1 книги &quot;Грокаем алгоритмы&quot;&#10;2) Прошел урок про стек в модуле про алгоритмы">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,7 @@
     "Python.Chapter 1.executor": "Run",
     "Python.Class Stack.executor": "Run",
     "Python.Stack.executor": "Run",
+    "Python.bracket_sequence.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -63,6 +60,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AcZ\PycharmProjects\TechniumA&amp;DS\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AcZ\PycharmProjects\TechniumA&amp;DS\Practice" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -88,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770389085022</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1) Изучил Главу 1 книги &quot;Грокаем алгоритмы&quot;&#10;2) Прошел урок про стек в модуле про алгоритмы">
+      <option name="closed" value="true" />
+      <created>1770652634649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770652634649</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add README and project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README and project files" />
+    <MESSAGE value="1) Изучил Главу 1 книги &quot;Грокаем алгоритмы&quot;&#10;2) Прошел урок про стек в модуле про алгоритмы" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) Изучил Главу 1 книги &quot;Грокаем алгоритмы&quot;&#10;2) Прошел урок про стек в модуле про алгоритмы" />
   </component>
 </project>
