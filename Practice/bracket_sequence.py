@@ -9,8 +9,8 @@
 """
 
 # Объявляем константы
-BRACKETS_DICT = {')': '(', '}': '{', ']': '['}
-OPEN_BRACKETS = set(BRACKETS_DICT.values())
+BRACKETS_DICT: dict[str, str] = {')': '(', '}': '{', ']': '['}
+OPEN_BRACKETS: set[str] = set(BRACKETS_DICT.values())
 
 # Импорты для аннотаций типов
 from typing import Any
@@ -71,8 +71,11 @@ def bracket_sequence_checker(bracket_string: str) -> str:
 
 # Основная функция программы
 def main() -> None:
+    print(bracket_sequence_checker(''))
+    print(bracket_sequence_checker('('))
+    print(bracket_sequence_checker('()[]{}'))
     print(bracket_sequence_checker('([{}])'))
+    print(bracket_sequence_checker('([)]'))
     print(bracket_sequence_checker('{(})'))
-
 if __name__ == '__main__':
     main()
