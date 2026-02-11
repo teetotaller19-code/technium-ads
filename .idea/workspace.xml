@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb52960-8afe-4a77-addc-29b164879349" name="Changes" comment="1) Изучил Главу 1 книги &quot;Грокаем алгоритмы&quot;&#10;2) Прошел урок про стек в модуле про алгоритмы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/bracket_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/bracket_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grokking Algorithms/Chapter 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grokking Algorithms/Chapter 1 (Binary search and O-big).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Chapter 1.executor": "Run",
+    "Python.Chapter 3 (Recursion).executor": "Run",
     "Python.Class Stack.executor": "Run",
     "Python.Stack.executor": "Run",
     "Python.bracket_sequence.executor": "Run",
@@ -57,6 +58,12 @@
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/AcZ/PycharmProjects/TechniumA&DS/images",
     "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT",
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
