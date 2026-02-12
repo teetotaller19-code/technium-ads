@@ -57,11 +57,15 @@ def reversed_polish_notation(rpn_string: str) -> int | float | str:
     обратной польской записи.
 
     :param rpn_string: Строка в формате обратной польской записи
-    :return: Результат вычисления математического выражения или 'Invalid RPN sequence'.
+    :return: Результат вычисления математического выражения или ошибка 'Invalid RPN sequence',
+    или ошибка 'Empty RPN sequence'.
     """
+
     rpn_stack = Stack()
     operators = {'+': operator.add, '-': operator.sub, '*': operator.mul, '/': operator.truediv, '**': operator.pow}
     tokens = rpn_string.split()
+    if not tokens:
+        return 'Empty RPN sequence'
     for token in tokens:
         try:
             number = float(token)
