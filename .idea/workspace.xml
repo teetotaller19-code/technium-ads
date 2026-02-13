@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb52960-8afe-4a77-addc-29b164879349" name="Changes" comment="1) Изучил Главу 1 книги &quot;Грокаем алгоритмы&quot;&#10;2) Прошел урок про стек в модуле про алгоритмы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/task_queue_implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/task_queue_implementation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -59,6 +59,12 @@ class Task:
         """
         self.name = name
 
+    def __str__(self) -> str:
+        """
+        Возвращает удобочитаемое строковое представление задачи.
+        """
+        return f"Task({self.name})"
+
 # Создаем основную функцию программы
 def main() -> None:
     """
@@ -75,10 +81,12 @@ def main() -> None:
     queue.add_task(task3)
 
     next_task = queue.get_next_task()
-    print(f"Следующая задача: {next_task.name if next_task else 'Нет задач'}")
+    print(f"Следующая задача: {next_task}")
 
     queue.get_next_task()
+    queue.get_next_task()
 
+    assert queue.is_empty()
     print(f"Очередь пуста: {queue.is_empty()}")
 
 if __name__ == "__main__":
