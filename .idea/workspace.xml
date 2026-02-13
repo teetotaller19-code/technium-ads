@@ -52,6 +52,7 @@
     "Python.Stack.executor": "Run",
     "Python.bracket_sequence.executor": "Run",
     "Python.reversed_polish_notation.executor": "Run",
+    "Python.task_queue_implementation.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
