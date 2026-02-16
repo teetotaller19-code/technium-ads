@@ -18,7 +18,7 @@ class Queue:
     def __init__(self) -> None:
         self.items: list[Any] = []
 
-    # Шаг 3: Метод проверки на пустоту очереди "is_empty"
+    # Шаг 3: Метод проверки очереди на пустоту "is_empty"
     def is_empty(self) -> bool:
         return not self.items
 
