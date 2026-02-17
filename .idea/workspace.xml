@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb52960-8afe-4a77-addc-29b164879349" name="Changes" comment="1) Изучил Главу 1 книги &quot;Грокаем алгоритмы&quot;&#10;2) Прошел урок про стек в модуле про алгоритмы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module Lessons/Class Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module Lessons/Class Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grokking Algorithms/Chapter 1 (Binary search and O-big).py" beforeDir="false" afterPath="$PROJECT_DIR$/Grokking Algorithms/Chapter 1 (Binary search and O-big).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,34 +43,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Chapter 1.executor": "Run",
-    "Python.Chapter 3 (Recursion).executor": "Run",
-    "Python.Class Double-ended queue (deque).executor": "Run",
-    "Python.Class Queue.executor": "Run",
-    "Python.Class Stack.executor": "Run",
-    "Python.Deque from Collections.executor": "Run",
-    "Python.Stack.executor": "Run",
-    "Python.bracket_sequence.executor": "Run",
-    "Python.reversed_polish_notation.executor": "Run",
-    "Python.task_queue_implementation.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/AcZ/PycharmProjects/TechniumA&DS/images",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Chapter 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chapter 3 (Recursion).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chapter 6 (Breadth-first search).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class Double-ended queue (deque).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class Queue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Deque from Collections.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bracket_sequence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reversed_polish_notation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_queue_implementation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AcZ/PycharmProjects/TechniumA&amp;DS/images&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AcZ\PycharmProjects\TechniumA&amp;DS\images" />
@@ -82,7 +83,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-07523f343e4f-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28539.27" />
+        <option value="bundled-python-sdk-4762d8aabb82-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.173" />
       </set>
     </attachedChunks>
   </component>
