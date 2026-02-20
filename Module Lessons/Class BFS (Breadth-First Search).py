@@ -1,48 +1,50 @@
 """
-Реализация классов для графа, его вершин (узлов) и для DFS.
+Реализация классов для графа, его вершин (узлов) и для BFS.
 """
+
+# Импорт двухсторонней очереди
+from collections import deque
 
 # Реализация класса узла
 class Node:
     """
-    Представляет вершину ориентированного графа.
+    Представляет вершину ориентированного графа с атрибутами в виде
+    значения вершины и списками входящих и исходящих рёбер.
     """
     # Инициализация узла
     def __init__(self, value: str):
-        # Атрибут, хранящий значение узла (название вершины)
-        self.value = value
+        self.value: str = value  # Значение узла
 
-        # Список исходящих рёбер из данного узла
-        self.outbound: list[Node] = []
-        # Список входящих рёбер в данный узел
-        self.inbound: list[Node] = []
+        self.outbound: list[Node] = []  # Список исходящих рёбер из узла
+        self.inbound: list[Node] = []   # Список входящих рёбер в узел
 
-    # Метод создания направленного ребра от текущего узла к другому узлу
+    # Метод для создания направленного ребра от текущего узла к другому узлу
     def point_to(self, other: Node):
         """
-        Создает направленное ребро от текущего узла к другому узлу.
+        Добавляет направленное ребро self -> other.
         """
-        # Добавление другого узла в список исходящих рёбер текущего узла
         self.outbound.append(other)
-        # Добавление текущего узла в список входящих рёбер другого узла
         other.inbound.append(self)
 
+    # Красивый вывод
     def __str__(self):
         return f'Node({self.value})'
 
+    # Красивый вывод для контейнера
     def __repr__(self):
         return self.__str__()
 
 # Реализация класса графа
 class Graph:
     """
-    Представляет ориентированный граф с возможностью обхода в глубину.
+    Представляет ориентированный граф с возможностью обхода в глубину (DFS) и в ширину (BFS).
+    Обход осуществляется по исходящим рёбрам (outbound).
     """
     # Инициализация начального узла
     def __init__(self, root: Node):
         self._root = root
 
-    # Метод для поиска в глубину через список и стек
+    # Метод для поиска в глубину через стек
     def dfs(self) -> list[str]:
         """
         Выполняет обход графа в глубину (DFS),
@@ -61,6 +63,32 @@ class Graph:
                 stack.extend(reversed(current_node.outbound))
         return result
 
+    # Метод для поиска в ширину через двухстороннюю очередь
+    def bfs(self) -> list[str]:
+        """
+        Выполняет обход графа в ширину (BFS),
+        начиная с корневой вершины.
+
+        :return: Список вершин в порядке обхода.
+        """
+        visited: set[Node] = set()
+        result: list[str] = []
+        queue: deque[Node] = deque()
+
+        queue.append(self._root)
+        visited.add(self._root)
+
+        while queue:
+            vertex: Node = queue.popleft()
+            result.append(vertex.value)
+
+            for neighbor in vertex.outbound:
+                if neighbor not in visited:
+                    queue.append(neighbor)
+                    visited.add(neighbor)
+
+        return result
+
 # Тестируем
 def main():
     # Тест 1
@@ -76,6 +104,7 @@ def main():
 
     graph_1 = Graph(a)
     print(graph_1.dfs())
+    print(graph_1.bfs())
 
     # Тест 2
     a = Node('a')
@@ -94,6 +123,7 @@ def main():
 
     graph_2 = Graph(a)
     print(graph_2.dfs())
+    print(graph_2.bfs())
 
     # Тест 3
     a = Node('a')
@@ -120,6 +150,7 @@ def main():
 
     graph_3 = Graph(a)
     print(graph_3.dfs())
+    print(graph_3.bfs())
 
 if __name__ == '__main__':
     main()
